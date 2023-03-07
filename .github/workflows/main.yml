@@ -72,9 +72,6 @@ jobs:
           aws-access-key-id: ASIAX2JI3XNK75C6SJWS
           aws-secret-access-key: EkmgpsW9IkuSgwkVK8dsqV5dx2yTvqaylLSEpMP
           aws-region: us-east-1
-          role-to-assume: arn:aws:iam::537493486421:role/LabRole
-          role-duration-seconds: 1200
-          role-session-name: MySessionName
   
       # Create the Elastic Beanstalk application
       - name: Create EBS application
